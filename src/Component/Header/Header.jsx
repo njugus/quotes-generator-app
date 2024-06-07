@@ -59,7 +59,7 @@ function Header() {
             <div className="header-bottom">
             <label for="name"></label>
             <input type="text" id="name" name="name" placeholder="Enter a key word" className='input-box' value={query} onChange={handleInputChange}/>
-            <button type='button' onClick={handleClick}>Generate Quote</button>
+            <button type='button' onClick={handleClick} className='cta-button'>Generate Quote</button>
             </div>
 
 
